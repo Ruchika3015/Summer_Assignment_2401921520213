@@ -8,6 +8,7 @@ public:
             sum+=nums[i];
             maxs=max(sum,maxs);
             if(sum<0)
+            
             {
                 sum=0;
             }
